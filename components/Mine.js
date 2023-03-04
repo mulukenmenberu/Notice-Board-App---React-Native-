@@ -15,7 +15,7 @@ import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import latest from '../data/latest.json'
 const hheight = Dimensions.get('screen').height
 
-export default function Dashboard({ navigation }) {
+export default function Mine({ navigation }) {
     const { width, height } = Dimensions.get('screen')
     const [active, setActive] = useState(0)
     useEffect(()=>{
@@ -52,39 +52,9 @@ export default function Dashboard({ navigation }) {
                 </Card>
 
                 <Text style={{ marginLeft: 10, marginTop: 10, fontSize: 20 }}>
-                    Welcome, Muluken</Text>
+                    Only Me's</Text>
 
-                <View>
-                    <View style={{ marginTop: 10, flexDirection: 'row', justifyContent: 'space-evenly' }}>
-                        <View style={{ padding: 10, borderRadius: 20, backgroundColor: '#17A589', height: 130, width: 180 }}>
-                            <Entypo name="newsletter" size={24} style={{ alignSelf: 'flex-end' }} color="#fff" />
-                            <Text style={{ alignSelf: 'center', color: '#fff', fontWeight: 'bold', fontSize: 35 }}>3</Text>
-                            <Text style={{ color: '#fff', fontSize: 18 }}>Recently Updated</Text>
-                            <Text style={{ color: '#fff', fontSize: 18 }}>Items</Text>
-                        </View>
-                        <View style={{ padding: 10,  borderRadius: 20, backgroundColor: 'tomato', height: 130, width: 180 }}>
-                            <Ionicons name="alarm" size={24} style={{ alignSelf: 'flex-end' }} color="#fff" />
-                            <Text style={{ alignSelf: 'center', color: '#fff', fontWeight: 'bold', fontSize: 35 }}>120</Text>
-                            <Text style={{ color: '#fff', fontSize: 18 }}>Outdated / expired</Text>
-                            <Text style={{ color: '#fff', fontSize: 18 }}>Items</Text>
-                        </View>
-                    </View>
-                    <View style={{  marginTop: 10, flexDirection: 'row', justifyContent: 'space-evenly' }}>
-                        <View style={{ padding: 10,  borderRadius: 20, backgroundColor: '#1B54DB', height: 130, width: 180 }}>
-                            <MaterialIcons name="category" size={24} style={{ alignSelf: 'flex-end' }} color="#fff" />
-                            <Text style={{ alignSelf: 'center', color: '#fff', fontWeight: 'bold', fontSize: 35 }}>7</Text>
-                            <Text style={{ color: '#fff', fontSize: 18 }}>Item under my</Text>
-                            <Text style={{ color: '#fff', fontSize: 18 }}>category</Text>
-                        </View>
-                        <View style={{padding: 10,  borderRadius: 20, backgroundColor: '#8E44AD', height: 130, width: 180 }}>
-                            <FontAwesome name="sticky-note" size={24} style={{ alignSelf: 'flex-end' }} color="#fff" />
-                            <Text style={{ alignSelf: 'center', color: '#fff', fontWeight: 'bold', fontSize: 35 }}>13</Text>
-                            <Text style={{ color: '#fff', fontSize: 18 }}>Active Items</Text>
-                            <Text style={{ color: '#fff', fontSize: 18 }}>Items</Text>
-                        </View>
-                    </View>
-
-                </View>
+            
 
                 <View>
                     <ScrollView

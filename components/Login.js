@@ -19,7 +19,7 @@ export default function Login({navigation}) {
            />
            <Text style={{marginTop:20, justifyContent:'center', alignItems:'center', fontSize:20, alignSelf:'center'}}>
            forgot password?</Text>
-<TouchableOpacity onPress={()=>navigation.navigate('Dashboard')} style={{borderRadius:20,alignSelf:'center',alignItems:'center',width:200, height:50, color:'#fff', backgroundColor:'#087AFC', marginTop:5, justifyContent:'center'}}>
+<TouchableOpacity onPress={()=>navigation.navigate('Tabs')} style={{borderRadius:20,alignSelf:'center',alignItems:'center',width:200, height:50, color:'#fff', backgroundColor:'#087AFC', marginTop:5, justifyContent:'center'}}>
 <Text style={{justifyContent:'center', fontSize:20,color:'#fff'}}>Sign In</Text>
 </TouchableOpacity>
 
