@@ -1,13 +1,13 @@
-import { StatusBar } from 'expo-status-bar';
+// import { StatusBar } from 'expo-status-bar';
 import { useEffect, useState } from 'react';
-import { Image, TextInput, StyleSheet, Text, View, Platform, StatusBar as stbar, Dimensions, SafeAreaView, ImageBackground, TouchableOpacity, ScrollView } from 'react-native';
+import { Image, StatusBar,TextInput, StyleSheet, Text, View, Platform, StatusBar as stbar, Dimensions, SafeAreaView, ImageBackground, TouchableOpacity, ScrollView } from 'react-native';
 import { Card } from 'react-native-paper';
-import { Entypo } from '@expo/vector-icons';
-import { Ionicons } from '@expo/vector-icons'; 
-import { MaterialIcons } from '@expo/vector-icons'; 
-import { FontAwesome } from '@expo/vector-icons'; 
-import { EvilIcons } from '@expo/vector-icons'; 
-import { AntDesign } from '@expo/vector-icons'; 
+// import { Entypo } from '@expo/vector-icons';
+// import { Ionicons } from '@expo/vector-icons'; 
+// import { MaterialIcons } from '@expo/vector-icons'; 
+// import { FontAwesome } from '@expo/vector-icons'; 
+// import { EvilIcons } from '@expo/vector-icons'; 
+// import { AntDesign } from '@expo/vector-icons'; 
 
 import latest from '../data/latest.json'
 const hheight = Dimensions.get('screen').height

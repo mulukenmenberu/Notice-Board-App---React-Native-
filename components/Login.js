@@ -1,5 +1,5 @@
-import { StatusBar } from 'expo-status-bar';
-import {Image, TextInput, StyleSheet, Text, View, Platform, StatusBar as stbar, Dimensions, SafeAreaView, ImageBackground, TouchableOpacity } from 'react-native';
+// import { StatusBar } from 'expo-status-bar';
+import {Image,StatusBar, TextInput, StyleSheet, Text, View, Platform, StatusBar as stbar, Dimensions, SafeAreaView, ImageBackground, TouchableOpacity } from 'react-native';
 import { Card } from 'react-native-paper';
 const hheight = Dimensions.get('screen').height
 
