@@ -1,5 +1,5 @@
 # Notice-Board-App---React-Native-
 
-##Admin Privilages
-  Post Notice 
-  Manage Views
+## Admin Privilages
+1. Post Notice 
+2. Manage Views
