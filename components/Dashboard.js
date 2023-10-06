@@ -122,8 +122,6 @@ export default function Dashboard({ navigation }) {
                                 setIsExpanded(!isExpanded);
                             };
                             const containerHeight = isExpanded ? 'auto' : isContentExpanded ? 'auto' : 200;
-
-
                             return (
                                 <>
                                     <View style={{ marginTop: 15, alignSelf: 'center', borderRadius: 20, backgroundColor: '#fff', height: containerHeight, width: width - 40 }}>
